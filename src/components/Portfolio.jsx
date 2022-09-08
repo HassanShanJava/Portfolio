@@ -8,6 +8,7 @@ import Drawing from "../assets/snipcode/drawing-app.png";
 import Webull from "../assets/snipcode/react-styled-webull.png";
 
 const Portfolio = () => {
+  const string2="// Check out some of my recent work.";
   return (
     <div
       name="portfolio"
@@ -19,7 +20,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold text-gray-300 inline border-b-4 border-pink-600">
             Portfolio
           </p>
-          <p className="py-6 ">// Check out some of my recent work.</p>
+          <p className="py-6 ">{string2}</p>
         </div>
 
         {/* container for projects */}
