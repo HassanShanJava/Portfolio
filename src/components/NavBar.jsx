@@ -5,10 +5,8 @@ import { Link } from "react-scroll";
 
 import {
   FaBars,
-  FaFacebook,
   FaGithub,
   FaLinkedin,
-  FaMailBulk,
   FaTimes,
 } from "react-icons/fa";
 
