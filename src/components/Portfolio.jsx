@@ -6,6 +6,8 @@ import GalaxyTravels from "../assets/snipcode/galaxy-travels.png";
 import AptiveData from "../assets/snipcode/aptive-data.png";
 import Drawing from "../assets/snipcode/drawing-app.png";
 import Webull from "../assets/snipcode/react-styled-webull.png";
+import Datasite from "../assets/snipcode/datasite.png";
+
 
 const Portfolio = () => {
   const string2="// Check out some of my recent work.";
@@ -151,6 +153,39 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/* Add more projects next */}
+          <div
+            style={{ backgroundImage: `url(${Datasite})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md 
+                          flex justify-center text-center items-center mx-auto content-div "
+          >
+            {/* Hover effect for images */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font bold text-white tracking-wider ">
+                Data Site Application
+              </span>
+              <div className="pt-8 text-center ">
+                <a href="https://github.com/HassanShanJava/DataSite-Tail" target="__blank">
+                  <button
+                    className="text-center rounded-lg px-4 py-3 m-2
+                                   bg-white text-gray-700 font-bold text-lg"
+                  >
+                    Code
+                  </button>
+                </a>
+                <a href="https://datasite-rt.netlify.app/" target="__blank">
+                  <button
+                    className="text-center rounded-lg px-4 py-3 m-2
+                                   bg-white text-gray-700 font-bold text-lg"
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
           <div
             style={{ backgroundImage: `url(${Drawing})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md 
@@ -213,38 +248,9 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* Add more projects next */}
-          <div
-            style={{ backgroundImage: `url(${AirClone})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md 
-                          flex justify-center text-center items-center mx-auto content-div "
-          >
-            {/* Hover effect for images */}
-            <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-2xl font bold text-white tracking-wider ">
-                Coming Soon.
-              </span>
-              <div className="pt-8 text-center ">
-                <a href="/">
-                  <button
-                    className="text-center rounded-lg px-4 py-3 m-2
-                                   bg-white text-gray-700 font-bold text-lg"
-                  >
-                    Code
-                  </button>
-                </a>
-                <a href="/">
-                  <button
-                    className="text-center rounded-lg px-4 py-3 m-2
-                                   bg-white text-gray-700 font-bold text-lg"
-                  >
-                    Live
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
 
+          {/* Next Project */}
+          
 
         </div>
       </div>

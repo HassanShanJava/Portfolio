@@ -3,6 +3,8 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
+import Typewriter from "typewriter-effect";
+
 const Home = () => {
   return (
     // name property important for react-smooth scroll
@@ -13,9 +15,27 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Hassan Shan
         </h1>
+        <div className="flex">
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer
-        </h2>
+          I'm a 
+          </h2>
+          
+          <div className="ml-6 text-4xl sm:text-7xl font-bold text-[#8892b0]">
+              <Typewriter
+                options={
+                  {
+                    autoStart:true,
+                    strings:["Full Stack Developer","Cloud Enthusiast","Blockchain Enthusiast","Software Developer","Front-End Engineer"],
+                    delay:100,
+                    loop:true,
+                    deleteSpeed:100
+                  }
+                }
+              />
+          </div>
+
+        </div>
+        
         <p className="text-[#8892b0] max-w-[700px] py-4">
           I’m a full-stack developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
