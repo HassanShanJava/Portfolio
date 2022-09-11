@@ -3,9 +3,18 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
-import Typewriter from "typewriter-effect";
+//import Typewriter from "typewriter-effect";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Home = () => {
+
+const [text,count]= useTypewriter({
+    words:["Full Stack Developer","Front-End Engineer","Cloud Enthusiast","Blockchain Enthusiast","Software Developer"],
+    loop:{},
+})
+
+
+
   return (
     // name property important for react-smooth scroll
     <div name="home" className="w-full h-screen bg-[#0a192f]">
@@ -15,26 +24,26 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Hassan Shan
         </h1>
-        <div className="flex">
+        <span className="flex">
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a 
-          </h2>
-          
-          <div className="ml-4 text-4xl sm:text-7xl font-bold text-[#8892b0]">
-              <Typewriter
+          <span className="ml-4 text-4xl sm:text-7xl font-bold text-[#8892b0]">
+              {text}
+              {/* <Typewriter
                 options={
                   {
                     autoStart:true,
-                    strings:["Full Stack Developer","Cloud Enthusiast","Blockchain Enthusiast","Software Developer","Front-End Engineer"],
+                    strings:["Full Stack Developer","Front-End Engineer","Cloud Enthusiast","Blockchain Enthusiast","Software Developer"],
                     delay:100,
                     loop:true,
                     deleteSpeed:100
                   }
                 }
-              />
-          </div>
+              /> */}
+          </span>
+          </h2>
 
-        </div>
+        </span>
         
         <p className="text-[#8892b0] max-w-[700px] py-4">
           I’m a full-stack developer specializing in building (and occasionally
