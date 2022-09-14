@@ -8,6 +8,7 @@ import Drawing from "../assets/snipcode/drawing-app.png";
 import Webull from "../assets/snipcode/react-styled-webull.png";
 import Datasite from "../assets/snipcode/datasite.png";
 import FirstResponsive from "../assets/snipcode/responsive-portfolio.png";
+import FoodPanda from "../assets/snipcode/food-panda.png"
 
 const Portfolio = () => {
   const string2="// Check out some of my recent work.";
@@ -282,6 +283,36 @@ const Portfolio = () => {
 
 
           {/* Next Project */}
+          <div
+            style={{ backgroundImage: `url(${FoodPanda})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md 
+                          flex justify-center text-center items-center mx-auto content-div "
+          >
+            {/* Hover effect for images */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font bold text-white tracking-wider ">
+                FoodPanda Landing Page Clone
+              </span>
+              <div className="pt-8 text-center ">
+                <a href="https://github.com/HassanShanJava/FoodPanda-Clone-Landing-Page" target="__blank">
+                  <button
+                    className="text-center rounded-lg px-4 py-3 m-2
+                                   bg-white text-gray-700 font-bold text-lg"
+                  >
+                    Code
+                  </button>
+                </a>
+                <a href="https://foodpanda-clone.netlify.app/" target="__blank">
+                  <button
+                    className="text-center rounded-lg px-4 py-3 m-2
+                                   bg-white text-gray-700 font-bold text-lg"
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           
 
         </div>
