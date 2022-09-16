@@ -42,7 +42,7 @@ const Portfolio = () => {
                 Airbnb Landing Clone
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/airbnb-landing-clone" target="_blank">
+                <a href="https://github.com/HassanShanJava/airbnb-landing-clone" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -50,7 +50,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://airbnb-landing-clone-page.netlify.app/" target="_blank">
+                <a href="https://airbnb-landing-clone-page.netlify.app/" target="_-blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 Galaxy Travels Application
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/galaxy-travels-router" target="_blank">
+                <a href="https://github.com/HassanShanJava/galaxy-travels-router" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -81,7 +81,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://galaxy-travel-page.netlify.app/" target="_blank">
+                <a href="https://galaxy-travel-page.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -104,7 +104,7 @@ const Portfolio = () => {
                 Modern Banking Appilcation
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/modern-banking-app" target="_blank">
+                <a href="https://github.com/HassanShanJava/modern-banking-app" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -112,7 +112,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://hs-modern-bank-app.netlify.app/" target="_blank">
+                <a href="https://hs-modern-bank-app.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -135,7 +135,7 @@ const Portfolio = () => {
                 Aptive Data Application
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/Aptive-Router" target="_blank">
+                <a href="https://github.com/HassanShanJava/Aptive-Router" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -143,7 +143,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://aptive-data-commerce.netlify.app/" target="_blank">
+                <a href="https://aptive-data-commerce.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -167,7 +167,7 @@ const Portfolio = () => {
                 Data Site Application
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/DataSite-Tail" target="_blank">
+                <a href="https://github.com/HassanShanJava/DataSite-Tail" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -175,7 +175,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://datasite-rt.netlify.app/" target="_blank">
+                <a href="https://datasite-rt.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -199,7 +199,7 @@ const Portfolio = () => {
                 Drawing Application
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/drawing-app" target="_blank">
+                <a href="https://github.com/HassanShanJava/drawing-app" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -207,7 +207,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://drawing-app-2.netlify.app/" target="_blank">
+                <a href="https://drawing-app-2.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -230,7 +230,7 @@ const Portfolio = () => {
                 First Responsive Website
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/my-project-portfolio" target="_blank">
+                <a href="https://github.com/HassanShanJava/my-project-portfolio" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -238,7 +238,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://hassan-shan-portfolio.netlify.app/" target="_blank">
+                <a href="https://hassan-shan-portfolio.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -262,7 +262,7 @@ const Portfolio = () => {
                 Webull Stocks Application
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/react_styled_components_gh" target="_blank">
+                <a href="https://github.com/HassanShanJava/react_styled_components_gh" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -270,7 +270,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://github.com/HassanShanJava/react_styled_components_gh" target="_blank">
+                <a href="https://github.com/HassanShanJava/react_styled_components_gh" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -295,7 +295,7 @@ const Portfolio = () => {
                 FoodPanda Landing Page Clone
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/FoodPanda-Clone-Landing-Page" target="_blank">
+                <a href="https://github.com/HassanShanJava/FoodPanda-Clone-Landing-Page" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -303,7 +303,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://foodpanda-clone.netlify.app/" target="_blank">
+                <a href="https://foodpanda-clone.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -326,7 +326,7 @@ const Portfolio = () => {
                 Drive Cars Rental Application 
               </span>
               <div className="pt-8 text-center ">
-                <a href="https://github.com/HassanShanJava/drive-cars-landing-page" target="_blank">
+                <a href="https://github.com/HassanShanJava/drive-cars-landing-page" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
@@ -334,7 +334,7 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://drive-rent-a-car.netlify.app/" target="_blank">
+                <a href="https://drive-rent-a-car.netlify.app/" target="__blank">
                   <button
                     className="text-center rounded-lg px-4 py-3 m-2
                                    bg-white text-gray-700 font-bold text-lg"
