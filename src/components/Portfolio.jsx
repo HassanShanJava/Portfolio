@@ -7,7 +7,8 @@ const Portfolio = () => {
   const string2="// Check out some of my recent work.";
 
   // projects file
-  const [project, setProject] = useState(data);
+  const project = data;
+  //setProject(data);
   
   return (
     <div
