@@ -41,14 +41,14 @@ export const data=[
     },
     {
         id:5,
-        name:"Airbnb Landing Clone",
+        name:"Data Site Application",
         image:Datasite,
-        github:"https://github.com/HassanShanJava/airbnb-landing-clone",
-        live:"https://airbnb-landing-clone-page.netlify.app/",
+        github:"https://github.com/HassanShanJava/DataSite-Tail",
+        live:"https://datasite-rt.netlify.app/",
     },
     {
         id:6,
-        name:"Data Site Application",
+        name:"Drawing Application",
         image:Drawing,
         github:"https://github.com/HassanShanJava/drawing-app",
         live:"https://drawing-app-2.netlify.app/",

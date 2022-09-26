@@ -25,6 +25,7 @@ const NavBar = () => {
       <div className="logo">
         <Link to="home" smooth={true} offset={50} duration={500}>
           <img
+            className="cursor-pointer"
             src={Logo}
             alt="/"
             style={{ width: "120px", marginTop: "20px" }}
@@ -82,8 +83,8 @@ const NavBar = () => {
       <ul
         className={
           nav
-            ? "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
-            : "hidden"
+            ? "absolute top-0 left-0 duration-200 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
+            : "absolute top-0 left-[-100%] duration-200 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
         }
       >
         <li className="py-6 text-4xl">
