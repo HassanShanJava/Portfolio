@@ -9,6 +9,7 @@ import FirstResponsive from "../assets/snipcode/responsive-portfolio.png";
 import FoodPanda from "../assets/snipcode/food-panda.png";
 import Drive from "../assets/snipcode/drive-rental.png";
 import FoodStore from "../assets/snipcode/best-eats.png"
+import Beaches from "../assets/snipcode/beacher-tailwind.png"
 
 export const data=[
     {
@@ -88,4 +89,11 @@ export const data=[
         github:"https://github.com/HassanShanJava/food-store",
         live:"https://best-eats-foodstore.netlify.app/",
     },
+    {
+        id:12,
+        name:"Beaches Travel Site",
+        image:Beaches,
+        github:"https://github.com/HassanShanJava/react-tailwinds-video",
+        live:"https://beaches-tailwind.netlify.app/",
+    }
 ]
