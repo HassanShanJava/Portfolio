@@ -10,6 +10,7 @@ import FoodPanda from "../assets/snipcode/food-panda.png";
 import Drive from "../assets/snipcode/drive-rental.png";
 import FoodStore from "../assets/snipcode/best-eats.png"
 import Beaches from "../assets/snipcode/beacher-tailwind.png"
+import ApiAxios from "../assets/snipcode/api-axios.png";
 
 export const data=[
     {
@@ -95,5 +96,13 @@ export const data=[
         image:Beaches,
         github:"https://github.com/HassanShanJava/react-tailwinds-video",
         live:"https://beaches-tailwind.netlify.app/",
+    },
+    {
+        id:13,
+        name: 'API Axios Application',
+        image:ApiAxios,
+        github:"https://github.com/HassanShanJava/react-tailwinds-api",
+        live:"https://api-axios-react.netlify.app/",
     }
+
 ]
