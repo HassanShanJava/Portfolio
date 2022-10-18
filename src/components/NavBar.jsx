@@ -122,10 +122,11 @@ const NavBar = () => {
                          items-center ml-[-100px] hover:ml-[-10px] duration-300
                          bg-blue-600"
           >
+            {/* eslint-disable-next-line */}
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/hassan-shan/"
-              target="__blank"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -135,10 +136,11 @@ const NavBar = () => {
                          items-center ml-[-100px] hover:ml-[-10px] duration-300
                          bg-[#333]"
           >
+            {/* eslint-disable-next-line */}
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/HassanShanJava"
-              target="__blank"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -148,9 +150,10 @@ const NavBar = () => {
                          items-center ml-[-100px] hover:ml-[-10px] duration-300
                          bg-[#6fc2b0]"
           >
+            {/* eslint-disable-next-line */}
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="mailto: hassanshan675@gmail.com" target='__blank'
+              href="mailto: hassanshan675@gmail.com" target='_blank'
              >
               Email <HiOutlineMail size={30} />
             </a>
@@ -160,10 +163,11 @@ const NavBar = () => {
                          items-center ml-[-100px] hover:ml-[-10px] duration-300
                          bg-[#565f69]"
           >
+            {/* eslint-disable-next-line */}
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9a075ead-b522-4010-be7b-4d3c7af949b4"
-              target="__blank"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
