@@ -12,6 +12,7 @@ import Mongo from "../assets/mongo.png"
 import FireBase from "../assets/firebase.png"
 import Github from "../assets/github.png"
 import Git from "../assets/git.png"
+import Python from "../assets/python.png"
 
 const Skills = () => {
   const string1="// These are the technologies I've worked with.";
@@ -39,6 +40,10 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={JS} alt='/'/>
             <p className='my-4'>JS</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Python} alt='/'/>
+            <p className='my-4'>Python</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Rect} alt='/'/>
