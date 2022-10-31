@@ -12,6 +12,7 @@ import FoodStore from "../assets/snipcode/best-eats.png"
 import Beaches from "../assets/snipcode/beacher-tailwind.png"
 import ApiAxios from "../assets/snipcode/api-axios.png";
 import Time from '../assets/snipcode/api-weather-time.png'
+import JS30 from '../assets/snipcode/JS30.PNG'
 
 export const data=[
     {
@@ -111,6 +112,13 @@ export const data=[
         image:ApiAxios,
         github:"https://github.com/HassanShanJava/react-tailwinds-api",
         live:"https://api-axios-react.netlify.app/",
+    },
+    {
+        id:15,
+        name: 'JavaScript 30 Days Challenge ',
+        image:JS30,
+        github:"https://github.com/HassanShanJava/JavaScript30-Journey",
+        live:"https://javascript30-hassan.netlify.app/",
     }
 
 ]
