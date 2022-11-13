@@ -26,24 +26,28 @@ const Contact = () => {
           placeholder="Name"
           name="name"
           className="mb-4 p-2 bg-[#ccd6f6]"
+          required
         />
         <input
           type="email"
           placeholder="Email"
           name="email"
           className="my-4 p-2 bg-[#ccd6f6]"
+          required
         />
         <input
           type="text"
           placeholder="Subject"
           name="Subject"
           className="my-4 p-2 bg-[#ccd6f6]"
+          required
         />
         <textarea
           rows="7"
           placeholder="Message"
           name="message"
           className="my-4 p-2  bg-[#ccd6f6]"
+          required
         ></textarea>
         <button
           className="text-white border-2 px-4 py-3 my-8 mx-auto flex items-center
