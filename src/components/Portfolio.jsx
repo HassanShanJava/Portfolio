@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full md:h-full text-gray-300 bg-[#0a192f]"
+      className=" w-full md:h-full text-gray-300 bg-[#0a192f]"
     >
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">

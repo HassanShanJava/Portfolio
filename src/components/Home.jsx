@@ -1,7 +1,7 @@
 import React from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 //import Typewriter from "typewriter-effect";
 import { useTypewriter } from "react-simple-typewriter";
@@ -51,14 +51,15 @@ const [text]= useTypewriter({
           building responsive full-stack web applications.
         </p>
         <div>
-          <Link to="portfolio" smooth={true} offset={50} duration={500}>
+          <Link to="/portfolio" smooth={true} offset={50} duration={500}>
             <button
               className="text-[#fff] group border-2 px-6 py-3 my-2 flex items-center
                              hover:bg-pink-600 hover:border-pink-600"
+              
             >
               View work
-              <span className=" group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-2" />
+              <span className="hidden md:block group-hover:rotate-[360deg]  duration-300">
+                <HiArrowNarrowRight className="ml-4" />
               </span>
             </button>
           </Link>
