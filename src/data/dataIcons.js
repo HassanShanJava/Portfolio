@@ -11,6 +11,7 @@ import FireBase from "../assets/icons/firebase.png"
 import Github from "../assets/icons/github.png"
 import Git from "../assets/icons/git.png"
 import Python from "../assets/icons/python.png"
+import Type from "../assets/icons/typescript4.png"
 
 
 export const dataIcons=[
@@ -31,47 +32,52 @@ export const dataIcons=[
     },
     {
         id:4,
+        name:"TypeScript",
+        icons:Type
+    },
+    {
+        id:5,
         name:"Python",
         icons:Python
     },
     {
-        id:5,
+        id:6,
         name:"React",
         icons:Rect
     },
     {
-        id:6,
+        id:7,
         name:"Linux",
         icons:Linux
     },
     {
-        id:7,
+        id:8,
         name:"Nodejs",
         icons:Node
     },
     {
-        id:8,
+        id:9,
         name:"MongoDB",
         icons:Mongo
 
     },
     {
-        id:9,
+        id:10,
         name:"Tailwinds CSS",
         icons:Tailwind
     },
     {
-        id:10,
+        id:11,
         name:"FireBase",
         icons:FireBase
     },
     {
-        id:11,
+        id:12,
         name:"GitHub",
         icons:Github
     },
     {
-        id:12,
+        id:13,
         name:"Git",
         icons:Git
     },
