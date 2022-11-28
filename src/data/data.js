@@ -13,8 +13,16 @@ import Beaches from "../assets/snipcode/beacher-tailwind.png"
 import ApiAxios from "../assets/snipcode/api-axios.png";
 import Time from '../assets/snipcode/api-weather-time.png'
 import JS30 from '../assets/snipcode/JS30.PNG'
+import Type from '../assets/snipcode/type.PNG'
 
 export const data=[
+    {
+        id:1,
+        name:"TodoList",
+        image:Type,
+        github:"https://github.com/HassanShanJava/react-typescript-todolist",
+        live:"https://reacttypescript-todolist.netlify.app/",
+    },
     {
         id:1,
         name:"Airbnb Landing Clone",
