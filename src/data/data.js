@@ -13,7 +13,7 @@ import Beaches from "../assets/snipcode/beacher-tailwind.png"
 import ApiAxios from "../assets/snipcode/api-axios.png";
 import Time from '../assets/snipcode/api-weather-time.png'
 import JS30 from '../assets/snipcode/JS30.PNG'
-import Type from '../assets/snipcode/type.PNG'
+import Type from '../assets/snipcode/type.png'
 
 export const data=[
     {
