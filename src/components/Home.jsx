@@ -1,7 +1,8 @@
 import React from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 //import Typewriter from "typewriter-effect";
 import { useTypewriter } from "react-simple-typewriter";
@@ -17,9 +18,9 @@ const [text]= useTypewriter({
 
   return (
     // name property important for react-smooth scroll
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
-      <div className="max-w-[1100px] mx-auto px-8 flex flex-col justify-center h-full ">
+      <div className="max-w-[1100px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-pink-600">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Hassan Shan
@@ -51,14 +52,14 @@ const [text]= useTypewriter({
           building responsive full-stack web applications.
         </p>
         <div>
-          <Link to="/portfolio" smooth={true} offset={50} duration={500}>
+          <Link to="portfolio" smooth={true} offset={50} duration={500}>
             <button
               className="text-[#fff] group border-2 px-6 py-3 my-2 flex items-center
                              hover:bg-pink-600 hover:border-pink-600"
               
             >
               View work
-              <span className="hidden md:block group-hover:rotate-[360deg]  duration-300">
+              <span className="hidden md:block group-hover:rotate-[90deg]  duration-300">
                 <HiArrowNarrowRight className="ml-4" />
               </span>
             </button>

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Logo from "../assets/icons/logo.png";
 
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import {
   FaBars,
@@ -20,9 +20,8 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div
-      className="relative w-full h-[80px] flex justify-between 
-                    items-center px-4 bg-[#0a192f] text-gray-300"
+    <div name="/"
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300"
     >
       <div className="logo">
         <Link to="/" smooth={true} offset={50} duration={500}>
@@ -42,27 +41,27 @@ const NavBar = () => {
       */}
       <ul className="hidden md:flex">
         <li>
-          <Link to='/' smooth={true} offset={50} duration={500}>
+          <Link to='' smooth={true} offset={50} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" smooth={true} offset={50} duration={500}>
+          <Link to="about" smooth={true} offset={50} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link to="/skills" smooth={true} offset={50} duration={500}>
+          <Link to="skills" smooth={true} offset={50} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="/portfolio" smooth={true} offset={50} duration={500}>
+          <Link to="portfolio" smooth={true} offset={50} duration={500}>
             Portfolio
           </Link>
         </li>
         <li>
-          <Link to="/contact" smooth={true} offset={50} duration={500}>
+          <Link to="contact" smooth={true} offset={50} duration={500}>
             Contact
           </Link>
         </li>
@@ -90,27 +89,27 @@ const NavBar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/" smooth={true} offset={50} duration={500}>
+          <Link onClick={handleClick} to="" smooth={true} offset={50} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/about" smooth={true} offset={50} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} offset={50} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/skills" smooth={true} offset={50} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} offset={50} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/portfolio" smooth={true} offset={50} duration={500}>
+          <Link onClick={handleClick} to="portfolio" smooth={true} offset={50} duration={500}>
             Portfolio
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/contact" smooth={true} offset={50} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} offset={50} duration={500}>
             Contact
           </Link>
         </li>
