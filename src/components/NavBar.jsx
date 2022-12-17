@@ -10,6 +10,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaTimes,
+  FaYoutube,
 } from "react-icons/fa";
 
 import { HiOutlineMail } from "react-icons/hi";
@@ -171,6 +172,20 @@ const NavBar = () => {
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li
+            className="w-[160px] h-[60px] flex justify-between
+                         items-center ml-[-100px] hover:ml-[-10px] duration-300
+                         bg-[#c91f33]"
+          >
+            {/* eslint-disable-next-line */}
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.youtube.com/@hassanshan1270"
+              target="_blank"
+            >
+              YouTube <FaYoutube size={30} />
             </a>
           </li>
         </ul>
