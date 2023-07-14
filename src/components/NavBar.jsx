@@ -203,7 +203,7 @@ const NavBar = () => {
               {/* eslint-disable-next-line */}
               <a
                 className="flex justify-between items-center w-full text-gray-300"
-                href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:fd203b45-53a3-4de4-8dd6-ad6584da21c0"
+                href="https://acrobat.adobe.com/link/file/?uri=urn%3Aaaid%3Asc%3AUS%3A69193879-351d-42cd-83b0-a68f1d350c22&filetype=application%2Fpdf&size=752236&viewer%21megaVerb=group-discover"
                 target="_blank"
               >
                 Resume <BsFillPersonLinesFill size={30} />
