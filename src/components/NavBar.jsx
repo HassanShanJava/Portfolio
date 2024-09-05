@@ -203,7 +203,7 @@ const NavBar = () => {
               {/* eslint-disable-next-line */}
               <a
                 className="flex justify-between items-center w-full text-gray-300"
-                href="https://drive.google.com/file/d/1UWGBrrCatNheza4MZO0aUqbgNks2yEK6/view?usp=sharing"
+                href="https://drive.google.com/file/d/1xttivNuQZNJm3kMt9rpSZl_kz-aeKMDD/view?usp=sharing"
                 target="_blank"
               >
                 Resume <BsFillPersonLinesFill size={30} />
